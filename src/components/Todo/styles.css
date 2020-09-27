@@ -1,0 +1,43 @@
+
+.todo li{
+  line-height: 26px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-right: 30px;
+  color: #fff;
+}
+
+.todo li .item {
+  margin-left: 8rem;
+
+}
+
+.todo li .buttons{
+  text-decoration: none;
+  margin-right: 8rem;
+}
+
+.todo li .buttons #edit {
+  outline: none;
+  padding: 1.1rem;
+  text-align: center;
+  color: var(--color-title-in-primary);
+  font-weight: 700;
+  background-color: var(--color-title-dark);
+  border-radius: 10px 0 0 10px;
+  border: 2px solid var(--color-primary);
+}
+
+.todo li .buttons #delete {
+  outline: none;
+  text-align: center;
+  color: var(--color-title-in-primary);
+  font-weight: 700;
+  background-color: var(--color-title-dark);
+  padding: 1.1rem;
+  border-radius: 0 10px 10px 0;
+  border: 2px solid var(--color-primary);
+}

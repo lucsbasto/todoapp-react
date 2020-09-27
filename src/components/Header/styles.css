@@ -1,0 +1,9 @@
+
+.header h1 {
+  color: var(--color-title-dark);
+  font-family: Ubuntu, sans-serif;
+  text-align: center;
+  font-size: 54px;
+  margin-top: 1.6rem;
+  border-bottom: 3px solid;
+} 

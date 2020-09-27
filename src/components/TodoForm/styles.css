@@ -1,0 +1,38 @@
+
+.todo-create {
+  display: flex;
+  justify-content: center;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.todo-create input {
+  outline: none;
+  width: 20rem;
+  padding: 1.1rem;
+  border-radius: 10px 0 0 10px;
+  font-weight: 700;
+  text-align: center;
+  color: var(--color-text-in-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.todo-create input::placeholder { 
+  color: var(--color-primary-lighter)
+}
+
+.todo-create button {
+  outline: none;
+  width: 20rem;
+  text-align: center;
+  color: var(--color-title-in-primary);
+  font-weight: 700;
+  background-color: var(--color-title-dark);
+  padding: 1.1rem;
+  border-radius: 0 10px 10px 0;
+  border: 2px solid var(--color-primary);
+}
+
+
+
+

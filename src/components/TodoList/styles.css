@@ -1,0 +1,23 @@
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main > img{
+  height: 600px;
+  width: 800px;
+}
+
+main .todos ul{
+  margin-right: 60px;
+  background-color: blueviolet;
+  margin-left: 120px;
+  text-align: center;
+  height: 40vh;
+  border-radius: 10px;
+  width: 600px;
+  list-style: none;
+  overflow: scroll;
+  overflow-x: hidden;
+}
