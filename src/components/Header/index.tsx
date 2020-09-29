@@ -1,18 +1,16 @@
 import React from 'react';
-import './styles.css'
+import './styles.css';
 
-
-interface PageHeaderProps {
-  title: string
+interface IPageHeaderProps {
+  title: string;
 }
 
-const Header: React.FC<PageHeaderProps> = (props) => {
-
+const Header: React.FC<IPageHeaderProps> = ({ title }: { title: string }) => {
   return (
-    <div className="header">
-      <h1>{props.title}</h1>
+    <div className="./styles.css">
+      <h1>{title}</h1>
     </div>
   );
-}
+};
 
-export default Header
+export default Header;
