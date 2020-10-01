@@ -6,7 +6,7 @@ import './styles.css';
 
 function TodoList() {
   const [todos, setTodos] = useState<TodoInterface[]>([]);
-
+  const [toggled, setToggled] = useState(false);
   const addTodo = (todo: TodoInterface) => {
     if (!todo.name) return;
     const newTodos = [...todos, todo];
@@ -20,7 +20,14 @@ function TodoList() {
         <div className="todos">
           <ul>
             {todos.map((todo) => (
-              <Todo key={todo.id} todo={todo} />
+              <Todo
+                key={todo.id}
+                todo={todo}
+                setTodos={setTodos}
+                todos={todos}
+                setToggled={setToggled}
+                toggled={toggled}
+              />
             ))}
           </ul>
         </div>

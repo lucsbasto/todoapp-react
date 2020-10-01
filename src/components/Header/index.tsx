@@ -7,7 +7,7 @@ interface IPageHeaderProps {
 
 const Header: React.FC<IPageHeaderProps> = ({ title }: { title: string }) => {
   return (
-    <div className="./styles.css">
+    <div className="header">
       <h1>{title}</h1>
     </div>
   );
