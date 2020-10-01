@@ -40,9 +40,9 @@ function Todo({
       <li>
         <div className={todo.completed ? 'completed' : 'item'}>{todo.name}</div>
         <div className="buttons">
-          <button id="edit">
+          {/* <button id="edit">
             <FiEdit />
-          </button>
+          </button> */}
           <button id="delete" onClick={deleteHandler}>
             <FaTrashAlt />
           </button>

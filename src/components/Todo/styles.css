@@ -44,6 +44,7 @@
   font-weight: 700;
   background-color: var(--color-title-dark);
   padding: 1.1rem;
+  border-radius: 10px 0 0 10px;
   border: 2px solid var(--color-primary);
 }
 

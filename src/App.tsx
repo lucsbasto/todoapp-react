@@ -7,7 +7,7 @@ import './assets/global.css';
 function App() {
   return (
     <>
-      <Header title="Todo App" />
+      <Header title="Todo Now" />
       <TodoList />
     </>
   );
