@@ -35,4 +35,27 @@
 
 
 
-
+@media (max-width: 1500px) {
+  .todo-create input {
+    outline: none;
+    width: 19rem;
+    padding: 1.1rem;
+    border-radius: 10px 0 0 10px;
+    font-weight: 700;
+    text-align: center;
+    color: var(--color-text-in-primary);
+    border: 2px solid var(--color-primary);
+  }
+  
+  .todo-create button {
+    outline: none;
+    width: 19rem;
+    text-align: center;
+    color: var(--color-title-in-primary);
+    font-weight: 700;
+    background-color: var(--color-title-dark);
+    padding: 1.1rem;
+    border-radius: 0 10px 10px 0;
+    border: 2px solid var(--color-primary);
+  }
+}

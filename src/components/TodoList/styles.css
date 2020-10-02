@@ -2,11 +2,12 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 main > img{
-  height: 60rem;
-  width: 80rem;
+  height: 100%;
+  width: 100%;
 }
 
 main .todos ul{
@@ -21,4 +22,27 @@ main .todos ul{
   list-style: none;
   overflow: scroll;
   overflow-x: hidden;
+}
+
+
+@media (max-width: 1300px) {
+  main .todos ul{
+    display: block;
+    margin-right: 1rem;
+    background-color: blueviolet;
+    margin-left: 1rem;
+    text-align: center;
+    height: 40rem;
+    border-radius: 10px;
+    width: 38rem;
+    list-style: none;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: auto;
+  }
+
+  main > img{
+    display: none;
+    width: 38rem;
+  }
 }

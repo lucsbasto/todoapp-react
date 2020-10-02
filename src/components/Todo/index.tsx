@@ -2,7 +2,6 @@
 /* eslint-disable no-unused-expressions */
 import React from 'react';
 import { FaTrashAlt } from 'react-icons/fa';
-import { FiEdit } from 'react-icons/fi';
 import { BsCheckBox } from 'react-icons/bs';
 import { ImCheckboxUnchecked } from 'react-icons/im';
 import './styles.css';
